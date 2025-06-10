@@ -1,0 +1,7 @@
+Changed the number of rounds to 30 and epochs to 3 in the .env file
+
+Ran ./start_datapipeline.sh docker-compose.yaml in one terminal
+
+Ran python3 live_plots.py in another terminal
+
+The live plot shows points where the MSE suddenly spikes above the threshold, marking anomalies. I understood that whenever the MSE goes above the threshold, it means an anomaly was detected.

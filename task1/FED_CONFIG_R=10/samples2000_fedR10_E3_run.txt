@@ -1,0 +1,13 @@
+Changed the number of samples in "collect_produce_normal_task1.py" to 2000
+
+Updated the .env file to set FED_CONFIG_R=10 and FED_CONFIG_E=3
+
+In one terminal:
+
+"./start_datapipeline.sh docker-compose-task1.yaml"
+
+In another terminal:
+
+"python3 live_plots.py"
+
+This produced the following graph 

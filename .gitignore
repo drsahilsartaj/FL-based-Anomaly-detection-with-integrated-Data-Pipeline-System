@@ -1,0 +1,14 @@
+# Ignore all PDFs and ZIPs (anywhere in the repo)
+*.pdf
+*.zip
+
+# macOS-specific ignores (optional but recommended)
+.DS_Store
+._*             # macOS resource forks
+.Spotlight-V100
+.Trashes
+
+# Other temporary/archive files (customize as needed)
+*.dmg
+*.tar
+*.gz

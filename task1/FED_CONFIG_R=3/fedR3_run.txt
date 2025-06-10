@@ -1,0 +1,9 @@
+First, I completed all of the Task 1 setup steps. Then I opened the .env file and confirmed that ROUNDS was set to 3 and EPOCHS to 2. Next, in one terminal I ran:
+
+"./start_datapipeline.sh docker-compose-task1.yaml"
+
+In a second terminal, I started the live plot viewer with:
+
+"python3 live_plots.py"
+
+The output I see by default is the graph here.

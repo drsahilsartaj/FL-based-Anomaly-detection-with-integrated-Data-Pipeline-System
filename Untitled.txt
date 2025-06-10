@@ -1,0 +1,5 @@
+1.
+Run the setup with the 2 clients to detect anomalies
+
+
+IMP: Each client or each inference can have only one topic
